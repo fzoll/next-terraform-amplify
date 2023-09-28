@@ -6,6 +6,9 @@ frontend:
         - npm ci
     build:
       commands:
+        - echo "RESEND_API_KEY=$RESEND_API_KEY" >> .env
+        - echo "Printing environmental variables to the console to ensure they are correct"
+        - cat .env
         - npm run build
   artifacts:
     baseDirectory: .next

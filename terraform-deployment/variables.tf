@@ -16,3 +16,7 @@ variable "tags" {
 variable "github_access_token" {
   type = string
 }
+
+variable "RESEND_API_KEY" {
+  type = string
+}

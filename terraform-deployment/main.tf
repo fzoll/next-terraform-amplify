@@ -7,4 +7,5 @@ module "portfolio-qs" {
   # - Amplify App -
   existing_repo_url   = "https://github.com/fzoll/next-terraform-amplify"
   github_access_token = var.github_access_token
+  RESEND_API_KEY      = var.RESEND_API_KEY
 }

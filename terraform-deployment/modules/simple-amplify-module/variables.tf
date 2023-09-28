@@ -60,3 +60,8 @@ variable "amplify_app_domain_name" {
   default     = "next-test.emmalillazoli.net"
   description = "The name of your domain. Ex. naruto.ninja"
 }
+variable "RESEND_API_KEY" {
+  type        = string
+  default     = null
+  description = "Resend API key"
+}
