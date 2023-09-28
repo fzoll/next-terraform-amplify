@@ -9,8 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-email/components": "^0.0.7",
+    "@react-email/tailwind": "^0.0.8",
     "react": "latest",
     "react-dom": "latest",
+    "react-icons": "^4.10.1",
+    "react-hot-toast": "^2.4.1",
+    "react-intersection-observer": "^9.5.2",
+    "framer-motion": "^10.12.17",
+    "resend": "^0.16.0",
     "next": "latest"
   },
   "devDependencies": {
