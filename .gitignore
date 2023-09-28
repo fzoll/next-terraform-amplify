@@ -33,3 +33,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.DS_Store
+pk.json
+.directory
+node_modules
+npm-debug.log
+.terraform
+terraform.plan
+terraform.tfstate
+terraform.tfstate.backup
+*.zip
+*.lock.hcl
+payloads
+ignore
+invokes-on-upload.json
+package-lock.json
+build
+
