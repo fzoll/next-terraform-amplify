@@ -3,7 +3,7 @@
 # - Amplify -
 variable "app_name" {
   type        = string
-  default     = "portfolio-App"
+  default     = "next-test-App"
   description = "The name of the Amplify Application"
 }
 variable "enable_auto_branch_creation" {
